@@ -1,0 +1,9 @@
+# Ignorer les compilateurs et archives
+*.tar.xz
+arm-gnu-toolchain*
+
+# Ignorer les exécutables (on ne versionne que le code source !)
+*.o
+*.out
+x86-hello
+arm-hello
